@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   frog:
-    specifier: 0.9.2-dalechyn-refreshing-initial-frame-images.20240504T224501
-    version: 0.9.2-dalechyn-refreshing-initial-frame-images.20240504T224501(@types/node@14.18.33)(hono@4.3.1)(typescript@5.4.5)
+    specifier: 0.9.2-dalechyn-refreshing-initial-frame-images.20240504T231513
+    version: 0.9.2-dalechyn-refreshing-initial-frame-images.20240504T231513(@types/node@14.18.33)(hono@4.3.1)(typescript@5.4.5)
   hono:
     specifier: ^4
     version: 4.3.1
@@ -1424,8 +1424,8 @@ packages:
     dependencies:
       to-regex-range: 5.0.1
 
-  /frog@0.9.2-dalechyn-refreshing-initial-frame-images.20240504T224501(@types/node@14.18.33)(hono@4.3.1)(typescript@5.4.5):
-    resolution: {integrity: sha512-qHyRpJRhUz2l52YtRWpAVIREYADJCMTMcWgnvBdTc1Qt0lYeJdZS0+Jf1fdYSfND5XwZ1ZcaO1JVrf0avhDXpA==}
+  /frog@0.9.2-dalechyn-refreshing-initial-frame-images.20240504T231513(@types/node@14.18.33)(hono@4.3.1)(typescript@5.4.5):
+    resolution: {integrity: sha512-YdUbshexuE33qn9i2f8SpJNlvH+3tUlFtKhQ5v1p2z+ArmeP7es0HwDA9A4irYh5DTsaumyQVoLUY9AvnTpEBw==}
     hasBin: true
     peerDependencies:
       hono: ^4

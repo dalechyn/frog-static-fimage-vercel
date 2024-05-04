@@ -8,7 +8,7 @@
     "deploy": "vercel"
   },
   "dependencies": {
-    "frog": "0.9.2-dalechyn-refreshing-initial-frame-images.20240504T231513",
+    "frog": "0.9.2-dalechyn-refreshing-initial-frame-images.20240504T233151",
     "hono": "^4"
   },
   "devDependencies": {

@@ -1,7 +1,7 @@
 import { Button, Frog } from 'frog'
 import { devtools } from 'frog/dev'
 import { serveStatic } from 'frog/serve-static'
-// import { neynar } from 'frog/hubs'
+import { neynar } from 'frog/hubs'
 import { handle } from 'frog/vercel'
 
 // Uncomment to use Edge Runtime.
@@ -12,8 +12,9 @@ import { handle } from 'frog/vercel'
 export const app = new Frog({
   assetsPath: '/',
   basePath: '/api',
+  verify: true,
   // Supply a Hub to enable frame verification.
-  // hub: neynar({ apiKey: 'NEYNAR_FROG_FM' })
+  hub: neynar({ apiKey: 'NEYNAR_FROG_FM' })
 })
 
 app.frame(
